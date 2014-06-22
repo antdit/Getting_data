@@ -3,9 +3,10 @@ title: "ReadMe"
 ---
 
 
-## Dowload and data extraction  done with download.file() and unzip()
+## Dowload and data extraction  
+* done with download.file() and unzip()
 * File names were annotated with the dir() function 
-* Files were individually read in as dataframes using read.table() and the file path pointing to the respective position of the file in the subfolders. This allows for the maintenance of the .zip folder structure when operating from a working directory in the same directory 
+* Files were individually read in as dataframes using read.table() and the file path pointing to the respective position of the file in the subfolde. This allows for the maintenance of the .zip folder structure when operating from a working directory in the same directory 
 
 ## Reading in files
 * Individual file were read in as data frames using read.table(), examined with dim(), str() and unique() in order to identify suitable concatanation methods (see codebook for names)
