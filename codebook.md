@@ -29,7 +29,7 @@ title: "CodeBook"
 # Description of data frames and other variables after concatanation, cleaning and transformations
 
 * attributes:        data frame of concatanated subject IDs and activity IDs of test and train data sets; 10299 rows x 2 columns
-* combined:          data frame of concatanated test and train data and "attributes" data frame including descriptive headers for ID columns; 10299 rows x 563 columns
+* combined:          data frame of concatanated test and train data and "attributes" data frame including descriptive headers for ID columns; 10299 rows x 563 columns; measurements do not have a uit as these represent normalized values where the range of the values was used for normalization
 * selected:          data frame of "combined" subsetted to std() and mean() including descriptive activity labels and cleaned up column names; 10299 rows x 68 columns
 * labels.old:        vector of characters in "selected" that are supposed to be substituted for R compatability
 * labels.new:        vector of character substitutions for "labels.old"
